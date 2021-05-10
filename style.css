@@ -1,0 +1,102 @@
+body {
+    background: #111;
+}
+
+header {
+    background: #45c1d6;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: -10pt;
+    margin-left: -10pt;
+    margin-right: -10pt;
+}
+
+h1 {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+}
+
+.navbar {
+    background: #fff;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+}
+
+button {
+    background: #fff;
+    border: none;
+    color: #45c1d6;
+    padding: 10px;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+}
+
+button:hover {
+    background:#ddd;
+    color:#222;
+    cursor: pointer;
+}
+
+.active {
+    background:#45c1d6;
+    color: #fff;
+}
+
+#newColorsBtn {
+    float: right;
+}
+
+.difficulty {
+    float: left;
+}
+
+.container {
+    margin: auto;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.easy {  
+    width: 65%;
+}
+
+.medium {
+    width: 45%;
+}
+
+.hard {
+    width: 30%;
+}
+
+.square {
+    float: left;
+    position: relative;
+    width: 30%; 
+    padding-bottom: 30%;
+    margin: 1.5%;
+    border-radius: 15%;
+}
+
+.square:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.correct {
+    transition: background-color 1s;
+    transition-delay: 0.5s
+}
+
+.incorrect {
+    transition: opacity 1s;
+}
