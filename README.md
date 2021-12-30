@@ -1,9 +1,7 @@
 # Guess The Color Game
 
-A simple colour guessing game built with Vanilla JavaScript for exercise.
+A colour guessing game coded in Vanilla JavaScript as an exercise. [Demo](https://codepen.io/obtuseangle/pen/oNBRmVb)
 
-[Demo](https://codepen.io/obtuseangle/pen/oNBRmVb)
+- I took the original idea from [Mikke Goes Coding](https://mikkegoes.com/javascript-projects-for-beginners/).
 
-Original idea from [Mikke Goes Coding](https://mikkegoes.com/javascript-projects-for-beginners/)
-
-Reference from [CodePen](https://codepen.io/itsmhuang/pen/oxaReK)
+- I referred to [this pen](https://codepen.io/itsmhuang/pen/oxaReK) on CodePen.
